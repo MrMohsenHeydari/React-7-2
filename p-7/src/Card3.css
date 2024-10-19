@@ -1,0 +1,41 @@
+@font-face {
+    font-family:sans ;
+    src: url(./font/IRANSansWeb\(FaNum\).woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans;
+}
+div.card-3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+div.card-3>div.product{
+    width: 20%;
+    padding: 20px;
+    background-color: #e6123d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+
+}
+div.product>img{
+    border-radius: 10px;
+}
+div.product>h3{
+    margin: 20px 0px;
+}
+div.product>a{
+    text-decoration: none;
+    color: #e6123d;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
